@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    line-height: 1.4;
+    font-style: oblique;
+    font-size: medium;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('bg/bg1.jpeg');
+background-size: cover;
+background-position: center;
+    
+}
+.navbar {
+   
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #9b9b9b;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+
+ul {
+  list-style-type: align-self;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #D7263D;
+}
+.logo img {
+    max-height: 50px; 
+    background-color: #ddd;
+    
+  }
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-category {
+    background-color: #000000;
+    background-size: 10%;
+    border-radius: 8px;
+    padding: 15px;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.menu-category h2 {
+    color: #D7263D;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: #ddd;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-right: 1px solid #343d0362;
+}
+
+.item-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item-info h3 {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.item-info p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.item-info span {
+    font-weight: bold;
+    color: #dfced1;
+    align-self: flex-end;
+    background-color: rgb(252, 42, 42);
+}
+footer {
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+
